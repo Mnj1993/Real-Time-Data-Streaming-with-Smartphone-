@@ -1,1 +1,1 @@
-
+a real-time streaming project involving smartphone data. We captured ambient brightness using a smartphone app and sent the data in JSON format via API Gateway to Lambda, which then published messages to our Apache Kafka cluster on an EC2 instance. We observed that changes in ambient brightness corresponded to changes in captured values.
